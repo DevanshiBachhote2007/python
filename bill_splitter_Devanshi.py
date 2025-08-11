@@ -6,7 +6,7 @@ bill=float(input("Enter Total bill amount:"))
 people=int(input("Enter number of people:"))
 tip=int(input("Enter tip percentage (0,5,10,15,20):"))
 print()
-_____________________________________________________________________________________________________
+
 
         #2
 if people<=0:
@@ -18,7 +18,7 @@ if tip<=0 or bill<=0:
     if tip<=0:
         print("Error! in tip")
 print()
-_____________________________________________________________________________________________________
+
 
         #3
 tip_amt= (tip/100)*bill
@@ -29,7 +29,7 @@ print("Tip Amount:₹",tip_amt)
 print("Total Bill (with tip):₹",final_bill)
 print("Each person should pay:₹",perperson)
 print()
-_____________________________________________________________________________________________________
+
 
         #4
 a=str(input("Would you like to calculate another bill? (yes/no):"))
@@ -60,9 +60,10 @@ while a=="yes":
     a=str(input("Would you like to calculate another bill? (yes/no):"))
     if a=="no":
         break
-_____________________________________________________________________________________________________
+
     
      
+
 
 
 
