@@ -44,7 +44,7 @@ while True:
         else:
             print("\nAll Students:")
             for i in students:
-                print(f"ID: {'student_id'}| Name: {i['name']}| Age: {i['age']}| "
+                print(f"ID: {i['student_id']}| Name: {i['name']}| Age: {i['age']}| "
                       f"Grade: {i['grade']}| Subjects: {', '.join(i['subjects'])}")
   
     # 3. Update Student Information
@@ -97,3 +97,4 @@ while True:
 
     else:
         print("Invalid choice. Please try again.")
+
